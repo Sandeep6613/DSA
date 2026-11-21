@@ -10,7 +10,6 @@
  * Note: Both returned array and *columnSizes must be malloced.
  */
 #include <stdlib.h>
-
 void backtrack(int* nums, int numsSize, int start,
                int* path, int pathSize,
                int** result, int* returnSize,
